@@ -1,0 +1,196 @@
+/* The idea! */
+
+.hearts{
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    overflow: hidden;
+}
+
+.heart{
+    position: absolute;
+    opacity: 0;
+    user-select: none;
+    animation: fadeHeart 4s ease-in-out forwards;
+}
+
+@keyframes fadeHeart{
+
+    0%{
+        opacity: 0;
+        transform: scale(.6);
+    }
+
+    20%{
+        opacity: .8;
+        transform: scale(1);
+    }
+
+    80%{
+        opacity: .8;
+        transform: scale(1);
+    }
+
+    100%{
+        opacity: 0;
+        transform: scale(1.3);
+    }
+
+}
+
+/* The idea! */
+
+/* Old Code! */
+
+#page1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: min(425px, 100vw);
+}
+
+
+#gif1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 57.5vh;
+    width: min(425px, 100vw);
+    border: 1px solid black;
+    border-radius: 15%;
+}
+
+
+#btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 37.5vh;
+    width: 100vw;
+    max-width: 425px;
+    position: relative;
+}
+
+#btn {
+    border: 1px solid rgb(49, 45, 46); /* */
+    border-radius: 50%;
+    background-color: rgb(192, 243, 255);
+    color: rgb(30, 30, 123);
+    transition: all 1s;
+    height: 30%;
+}
+
+/* Old Code! */
+
+/* 
+ #wheel {
+    border: 1px solid rgb(192, 243, 255);
+    border-radius: 0%;
+    background-color: rgb(192, 243, 255);
+    transition: all 1s;
+}
+
+*/
+
+body,
+#page2 {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(243, 243, 246);
+    justify-content: center;
+    align-items: center;
+}
+
+#page1 {
+    display: block;
+    align-self: center;
+}
+
+#page2,
+#page3,
+#page4,
+#page5,
+#page6,
+#page7,
+#page8 {
+    display: none;
+    position: relative;
+}
+
+#heading {
+    text-align: center;
+    color: rgba(12, 117, 110, 0.816);
+}
+
+#heading:hover,
+#heading:active {
+    color: rgba(45, 195, 214, 0.816);
+}
+
+#tp-line {
+    width: 80%;
+    color: rgb(171, 126, 66);
+    border: 0.00001px solid rgb(179, 161, 90);
+}
+
+#pics {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: 90%;
+    height: auto;
+    justify-content: center;
+    /*border: 1px solid black; /* */
+    gap: 1%;
+}
+
+/* Videos */
+
+#vids {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 90%;
+    height: auto;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+#vid1,
+#vid2,
+#vid3,
+#vid4,
+#vid6 {
+    height: 97vh;
+    width: auto;
+}
+
+#vid5 {
+    border: 1% solid;
+    border-radius: 2%;
+    margin-top: 10%;
+    width: 97vw;
+    height: auto;
+}
+
+
+.pic {
+    width: 100%;
+    border: 1px solid rgb(142, 142, 155);
+    border-radius: 5%;
+    height: 97%;
+    width: 97%;
+}
+
+.pic:hover {
+    border: 1px solid rgb(142, 142, 165);
+    border-radius: 5%;
+    filter: brightness(105%);
+}
+
+.pic:active {
+    border: 1px solid rgb(142, 142, 175);
+    border-radius: 5%;
+    filter: brightness(110%);
+}

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Boy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <audio id="song">
+        <source src="./song/happy_birthday_song_nursery_rhymes_kids_songs_abckidtv_mp3_56534.mp3.mpeg" type="audio/mp3">
+    </audio>
+
+    <audio id="song">
+        <source src="./songs" type="audio/mp3">
+    </audio>
+
+    <!-- Old Code! -->
+    <div id="page1">
+
+        <div>
+            <img onclick="swap()" id="gif1" src="./images/minion-minion-loves.gif" id="min">
+        </div>
+
+        <div id="btns">
+            <button onclick="swap()" id="btn">Press Ntiko</button>
+        </div>
+
+    </div>
+    <!-- Old Code! -->
+
+    <div id="page2">
+        <!-- Happy BirthDay Wish-->
+        <h1  onclick="swap()" id="heading">🥺Happy BirthDay Ntiko❤️</h1>
+
+        <!-- Hearts -->
+
+        <div class="hearts"></div>
+
+        <!-- Ntiko's Picture -->
+
+        <div id="pics">
+            <img onclick="playVid1()" class="pic" src="./images/IMG-20251223-WA0060.jpg">
+            <img onclick="playVid2()" class="pic" src="./images/IMG-20251223-WA0062.jpg">
+            <img onclick="playVid3()" class="pic" src="./images/IMG-20251223-WA0066.jpg">
+            <img onclick="playVid4()" class="pic" src="./images/IMG-20251223-WA0067.jpg">
+        </div>
+
+        <div id="instruction">
+            <h3 id="heading">Press Ntiko to see his videos</h3>
+            <h3 onclick="playVid5()" id="heading">
+                "Musa, Tlanga The Wheel😁" - Ntiko
+            </h3>
+            <h3 onclick="playVid6()" id="heading">
+                08-August-2026, Ntiko is 3 Years Old now! 
+                Look at him at 5 Months
+            </h3>
+        </div>
+
+    </div>
+    
+    <!-- The Wheels Video -->
+    
+    <div id="page3">
+        <video id="vid5">
+            <source src="./videos/WhatsApp Video 2026-08-01 at 19.58.05.mp4">
+        </video>
+        <h1 onclick="back()" id="heading">Ntiko's favourite video</h1>
+    </div>
+
+    <!-- Bus Video -->
+
+    <div id="page4">
+        <video onclick="back()" id="vid1">
+            <source src="./videos/VID-20251223-WA0044.mp4">
+        </video>
+    </div>
+
+    <!-- Video -->
+
+    <div id="page5">
+        <video onclick="back()" id="vid2">
+            <source src="./videos/VID_20260712_130542.mp4">
+        </video>
+    </div>
+
+    <!-- Video -->
+
+    <div id="page6">
+        <video onclick="back()" id="vid3">
+            <source src="./videos/VID-20251223-WA0063.mp4">
+        </video>
+    </div>
+
+    <!-- Video -->
+
+    <div id="page7">
+        <video onclick="back()" id="vid4">
+            <source src="./videos/VID-20251223-WA0057.mp4">
+        </video>
+    </div>
+
+    <!-- Video -->
+
+    <div id="page8">
+        <video onclick="back()" id="vid6">
+            <source src="./videos/WhatsApp Video 2026-08-01 at 19.58.20.mp4">
+        </video>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
+    <script src="index.js"></script>
+
+</body>
+</html>
