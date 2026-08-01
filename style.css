@@ -57,7 +57,7 @@
     justify-content: center;
     align-items: center;
     height: 57.5vh;
-    width: min(425px, 100vw);
+    width: min(425px, 85vw);
     border: 1px solid black;
     border-radius: 15%;
 }
@@ -129,11 +129,6 @@ body,
     color: rgba(45, 195, 214, 0.816);
 }
 
-#tp-line {
-    width: 80%;
-    color: rgb(171, 126, 66);
-    border: 0.00001px solid rgb(179, 161, 90);
-}
 
 #pics {
     display: grid;
@@ -148,22 +143,14 @@ body,
 
 /* Videos */
 
-#vids {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    width: 90%;
-    height: auto;
-    justify-content: center;
-    border: 1px solid black;
-}
 
 #vid1,
 #vid2,
 #vid3,
 #vid4,
 #vid6 {
-    height: 97vh;
-    width: auto;
+    height: auto;
+    width: 90vw;
 }
 
 #vid5 {
