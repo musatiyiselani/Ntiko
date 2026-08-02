@@ -17,7 +17,7 @@ function createHeart() {
     }, 4000);
 }
 
-setInterval(createHeart, 300);
+setInterval(createHeart, 200);
 
 // Old Code! 
 let page1 = document.getElementById("page1");
