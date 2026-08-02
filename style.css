@@ -68,7 +68,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 57.5vh;
+
     border: 1px solid black;
     border-radius: 15%;
 }
@@ -86,11 +86,18 @@
 
 #btn {
     border: 1px solid rgb(49, 45, 46); /* */
-    border-radius: 50%;
+    border-radius: 15%;
     background-color: rgb(192, 243, 255);
     color: rgb(30, 30, 123);
     transition: all 1s;
-    height: 30%;
+    height: 15%;
+}
+
+#btn2 {
+    border: 1px solid rgb(49, 45, 46); /* */
+    background-color: rgb(192, 243, 255);
+    color: rgb(30, 30, 123);
+    transition: all 1s;
 }
 
 /* Old Code! */
@@ -107,6 +114,7 @@
 
 body,
 #page2 {
+    font-family: 'Times New Roman', Times, serif;
     display: flex;
     flex-direction: column;
     background-color: rgb(243, 243, 246);
