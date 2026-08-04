@@ -244,6 +244,33 @@ vid6.addEventListener("ended", function() {
 
 // Done with Vid6
 
+// Vid7
+
+function playVid7() {
+
+    page2.style.display = "none";
+    page9.style.display = "block";
+
+    vid7.play()
+        .catch(err => console.log("Video error:", err));
+
+    song.pause();
+
+    vid7.onended = function() {
+        page2.style.display = "flex";
+        page9.style.display = "none";
+    };
+}
+
+vid7.addEventListener("ended", function() {
+    console.log("Video finished");
+
+    page9.style.display = "none";
+    page2.style.display = "flex";
+});
+
+// Done with Vid7
+
 // Go Back!
 
 function back() {

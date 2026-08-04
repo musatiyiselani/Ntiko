@@ -84,7 +84,8 @@
     position: relative;
 }
 
-#btn {
+#btn,
+#surprice-btn {
     border: 1px solid rgb(49, 45, 46); /* */
     border-radius: 15%;
     background-color: rgb(192, 243, 255);
@@ -134,7 +135,8 @@ body,
 #page5,
 #page6,
 #page7,
-#page8 {
+#page8,
+#page9 {
     display: none;
     position: relative;
 }
@@ -173,7 +175,8 @@ body,
     width: 90vw;
 }
 
-#vid5 {
+#vid5,
+#vid7 {
     border: 1% solid;
     border-radius: 2%;
     margin-top: 10%;
